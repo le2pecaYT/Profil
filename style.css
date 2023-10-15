@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #706666;
+	font-family: arial;
+	box-sizing: border-box;
+}
+.card-container{
+	width: 300px;
+	height: 630px;
+	background: #FFF;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow: hidden;
+	display: inline-block;
+}
+.upper-container{
+	height: 150px;
+	background: #7F00FF;
+}
+.image-container{
+	background: white;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	padding: 5px;
+	transform: translate(87px,80px);
+}
+.image-container img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.lower-container{
+	height: 480px;
+	background: #0e0d0d;
+	padding: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+.lower-container h3, h4{
+	box-sizing: border-box;
+	line-height: .6;
+	font-weight: lighter;
+}
+.lower-container h3{
+	color: #0cacc9;
+	opacity: .6;
+	font-weight: bold;
+}
+.lower-container h4{
+	color: #7F00FF;
+	opacity: .6;
+	font-weight: bold;
+}
+.lower-container p{
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 30px;
+}
+.lower-container .btn{
+	padding: 12px 20px;
+	background: #7F00FF;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+.lower-container .btn:hover{
+	background: transparent;
+	color: #7F00FF;
+	border: 2px solid #7F00FF;
+}
+
+.lower-container .btnbot{
+	padding: 12px 20px;
+	background: #3700ff;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+.lower-container .btnbot:hover{
+	background: transparent;
+	color: #3700ff;
+	border: 2px solid #3700ff;
+}
+
+.lower-container .btncristix{
+	padding: 12px 20px;
+	background: #099214;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+.lower-container .btncristix:hover{
+	background: transparent;
+	color: #099214;
+	border: 2px solid #099214;
+}
